@@ -7,7 +7,7 @@ WEBHOOK_HOST = 'https://aiogram-bot-for-u.herokuapp.com'
 WEBHOOK_PATH = '/webhook/' + token
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
-WEBAPP_HOST = 'localhost'
+WEBAPP_HOST = 0.0.0.0
 WEBAPP_PORT = 3001
 
 bot = Bot(token)
