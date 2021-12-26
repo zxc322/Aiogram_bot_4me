@@ -5,7 +5,7 @@ import os
 storage = MemoryStorage()
 token = '5000663222:AAFZvEvHl9EmyMVen2N52UJCqQiX3MwsaY8'
 WEBHOOK_HOST = 'https://aiogram-bot-for-u.herokuapp.com'
-WEBHOOK_PATH = '/webhook/' + token
+WEBHOOK_PATH = f'/webhook/{token}'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
 WEBAPP_HOST = '0.0.0.0'
