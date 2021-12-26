@@ -8,7 +8,7 @@ WEBHOOK_HOST = 'https://aiogram-bot-for-u.herokuapp.com'
 WEBHOOK_PATH = '/webhook/' + token
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
-WEBAPP_HOST = 0.0.0.0
+WEBAPP_HOST = '0.0.0.0'
 WEBAPP_PORT = int(os.environ.get('PORT', 5000)))
 
 bot = Bot(token)
