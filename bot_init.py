@@ -3,7 +3,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 storage = MemoryStorage()
 
-WEBHOOK_HOST = 'https://5133-93-75-106-174.ngrok.io'
+WEBHOOK_HOST = 'https://aiogram-bot-for-u.herokuapp.com/'
 WEBHOOK_URL = f"{WEBHOOK_HOST}"
 WEBHOOK_PATH = ''
 WEBAPP_HOST = 'localhost'
