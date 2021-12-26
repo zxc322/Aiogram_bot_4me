@@ -6,9 +6,9 @@ import client
 from bot_init import dp, bot, WEBAPP_HOST, WEBAPP_PORT, WEBHOOK_PATH, WEBHOOK_URL
 
 
-async def on_startup(_):
+async def on_startup(dp):
     print('Bot started . . .')
-    await bot.set_webhook(WEBHOOK_URL)
+    await bot.set_webhook(WEBHOOK_URL, drop_pending_updates=True)
     sqlite_db.sql_start()
 
 logging.basicConfig(level=logging.INFO)
