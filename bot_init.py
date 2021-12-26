@@ -6,8 +6,8 @@ storage = MemoryStorage()
 WEBHOOK_HOST = 'https://aiogram-bot-for-u.herokuapp.com/'
 WEBHOOK_URL = f"{WEBHOOK_HOST}"
 WEBHOOK_PATH = ''
-WEBAPP_HOST = 'https://aiogram-bot-for-u.herokuapp.com/'
-WEBAPP_PORT = 22
+WEBAPP_HOST = 'loclhost'
+WEBAPP_PORT = 5000
 token = '5000663222:AAFZvEvHl9EmyMVen2N52UJCqQiX3MwsaY8'
 bot = Bot(token)
 dp = Dispatcher(bot, storage=storage)
